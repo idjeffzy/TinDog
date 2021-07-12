@@ -1,0 +1,198 @@
+
+/* Tag Seectors */
+
+body {
+  font-family: "Montserrat";
+}
+
+h1{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: 900;
+  text-align: center;
+}
+
+/* ID Selectors */
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* Class Selectors */
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* Navigation */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Buttons */
+
+.dwnld-btn{
+  margin: 5% 5% 5% 0;
+}
+
+/* Title Image */
+
+.iphn-img{
+  position: absolute;
+  right: 30%;
+  transform: rotate(25deg);
+  width: 60%;
+}
+
+/* Features Section */
+
+#features{
+  background-color: #fff;
+  padding: 12rem 14rem 5rem;
+  position: relative;
+}
+
+.ftr-div{
+  padding-bottom: 4.5rem;
+  text-align: center;
+}
+
+.fabgcl{
+  color: #ef8172;
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+.fabgcl:hover{
+  color: #ff4c68;
+}
+
+.ftr-hd{
+  font: Bold 1.5rem Montserrat, sans-serif;
+}
+
+.ftr-txt{
+  color: #8f8f8f;
+  margin: auto;
+}
+
+/* Testimonials Section */
+
+#testimonials{
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+}
+
+.tts-img{
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* Press Section */
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.prs-img{
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.prc-col{
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+#cta{
+  background-color: #ff4c68;
+  padding: 5% 10% 7%;
+  text-align: center;
+}
+
+#cta h3{
+  color: #fff;
+ font: 900 3.5rem/1.5 Montserrat-Black, sans-serif;
+}
+
+/* Footer */
+
+#footer{
+  background-color: #fff;
+  padding: 7% 2% 2%;
+  text-align: center;
+}
+
+#cta button{
+    margin: 5% 3% 3% 0;
+}
+
+.fafi{
+  margin: 20px 10px;
+}
+
+#footer p{
+  color: #8f8f8f;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Media Query */
+
+@media (max-width: 1028px){
+
+#title{
+  text-align: center;
+}
+
+.iphn-img{
+  position: static;
+  transform: rotate(0);
+}
+
+}
